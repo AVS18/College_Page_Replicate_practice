@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2K18 Timetable</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: black;
+            color: white;
+        }
+        table{
+            margin-left: 300px;
+            align-items: center;
+        }
+        th{
+            border-color: aqua;
+            border-style: double;
+        }
+        td{
+            border-color: red;
+            border-style: double;
+            font-size:1.2em;
+        }
+        .time{
+            font-style: oblique;
+            font-size: x-large;
+            color: blue;
+            margin-top: 200px;
+            text-align: center;
+        }
+        @media screen and (max-width: 600px){
+            table{
+                margin-left: 0px;
+                align-content: center;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container adjust">
+        <p class="time">Timetable Batch 2k18</p>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>8:00 - 8:55</th>
+                <th>9:15 - 10:10</th>
+                <th>10:25 - 11:20</th>
+                <th>11:35 - 12:30</th>
+                <th>2:30 - 5:30</th>
+            </tr>
+            <tr>
+                <td>Mon</td>
+                <td>PDC/CF</td>
+                <td>DSP/VLSI</td>
+                <td>SEPM</td>
+                <td>AI</td>
+                <td>SEPM</td>
+            </tr>
+            <tr>
+                <td>Tues</td>
+                <td>SEPM</td>
+                <td>AI</td>
+                <td>FMA</td>
+                <td>SC/NT</td>
+                <td>DSP/VLSI</td>
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td>DSP/VLSI</td>
+                <td></td>
+                <td>PDC/CF</td>
+                <td>SEPM</td>
+                <td>PDC/CF</td>
+            </tr>
+            <tr>
+                <td>Thurs</td>
+                <td>SC/NT</td>
+                <td>PDC/CF</td>
+                <td>HRM</td>
+                <td>DSP/VLSI</td>
+                <td>AI</td>
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td>SC/NT</td>
+                <td>OSCM</td>
+                <td>AI</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
